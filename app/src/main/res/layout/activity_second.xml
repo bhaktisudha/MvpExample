@@ -4,13 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SecondActivity"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:gravity="center">
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:hint="Enter UserId"
+        />
 
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:hint="Enter PWD"
+        />
     <Button
-        android:id="@+id/loginbtn"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="12sp"
@@ -18,4 +34,4 @@
         android:hint="Log In"
         />
 
-</LinearLayout>
+</>
