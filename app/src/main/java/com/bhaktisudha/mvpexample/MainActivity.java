@@ -32,6 +32,7 @@ Button mainBtn;
         editor.putString("KeyUname","Bhakti");
         editor.putString("KeyUpwd","Sudha");
         editor.apply();
+        //hghhjghu
         mainBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
